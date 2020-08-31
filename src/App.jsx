@@ -46,7 +46,7 @@ const App = () => {
             <BlogPostApp />
           </Route>
           <Route path='/todo-list'>
-            <TodoApp/>
+            <TodoApp />
           </Route>
         </div>
       </div>
