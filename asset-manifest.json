@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/yjcyun/react-practice.git/static/js/main.83810207.chunk.js",
+    "main.js.map": "/yjcyun/react-practice.git/static/js/main.83810207.chunk.js.map",
+    "runtime-main.js": "/yjcyun/react-practice.git/static/js/runtime-main.dbc1721b.js",
+    "runtime-main.js.map": "/yjcyun/react-practice.git/static/js/runtime-main.dbc1721b.js.map",
+    "static/js/2.3943cda5.chunk.js": "/yjcyun/react-practice.git/static/js/2.3943cda5.chunk.js",
+    "static/js/2.3943cda5.chunk.js.map": "/yjcyun/react-practice.git/static/js/2.3943cda5.chunk.js.map",
+    "index.html": "/yjcyun/react-practice.git/index.html",
+    "precache-manifest.87ba2d58a0ac6289af533d5cceb20df5.js": "/yjcyun/react-practice.git/precache-manifest.87ba2d58a0ac6289af533d5cceb20df5.js",
+    "service-worker.js": "/yjcyun/react-practice.git/service-worker.js",
+    "static/js/2.3943cda5.chunk.js.LICENSE.txt": "/yjcyun/react-practice.git/static/js/2.3943cda5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbc1721b.js",
+    "static/js/2.3943cda5.chunk.js",
+    "static/js/main.83810207.chunk.js"
+  ]
+}
