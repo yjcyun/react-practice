@@ -19,6 +19,9 @@ const Header = () => {
       <Link to='/songs-redux' className='item'>
         Songs-Redux
       </Link>
+      <Link to='/counter' className='item'>
+        Counter
+      </Link>
     </div>
   )
 }

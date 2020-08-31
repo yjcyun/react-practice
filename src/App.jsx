@@ -7,6 +7,7 @@ import Header from './components/Header';
 import { Route } from 'react-router-dom';
 import { items, options } from './data/widget-data';
 import SongsApp from './components/songs-redux/App';
+import CounterApp from './components/counter/App';
 
 const App = () => {
   const [selected, setSelected] = useState(options[0]);
@@ -35,6 +36,9 @@ const App = () => {
           </Route>
           <Route path='/songs-redux'>
             <SongsApp />
+          </Route>
+          <Route path='/counter'>
+            <CounterApp />
           </Route>
         </div>
       </div>

@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import reducers from './components/songs-redux/reducers';
+import { store } from './components/store';
 
 ReactDOM.render(
-  <Provider store={createStore(reducers)}>
+  <Provider store={store}>
     <BrowserRouter>
       <App />
     </BrowserRouter>
