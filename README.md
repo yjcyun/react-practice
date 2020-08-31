@@ -11,3 +11,5 @@ Semantic UI is used for basic styling. Some components may not be mobile respons
 * Dropdown
 * Translate
 * Display Songs (Redux)
+* Counter (Redux)
+* Blog posts - fetch data (Redux)
