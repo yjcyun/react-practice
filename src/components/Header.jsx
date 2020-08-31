@@ -25,6 +25,9 @@ const Header = () => {
       <Link to='/blog-post' className='item'>
         BlogPost
       </Link>
+      <Link to='/todo-list' className='item'>
+        Todo
+      </Link>
     </div>
   )
 }

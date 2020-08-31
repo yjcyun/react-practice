@@ -9,6 +9,7 @@ import { items, options } from './data/widget-data';
 import SongsApp from './components/songs-redux/App';
 import CounterApp from './components/counter/App';
 import BlogPostApp from './components/blog-posts/App';
+import TodoApp from './components/todo-list/App';
 
 const App = () => {
   const [selected, setSelected] = useState(options[0]);
@@ -43,6 +44,9 @@ const App = () => {
           </Route>
           <Route path='/blog-post'>
             <BlogPostApp />
+          </Route>
+          <Route path='/todo-list'>
+            <TodoApp/>
           </Route>
         </div>
       </div>
