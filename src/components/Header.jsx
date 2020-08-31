@@ -17,10 +17,13 @@ const Header = () => {
         Translate
       </Link>
       <Link to='/songs-redux' className='item'>
-        Songs-Redux
+        Songs
       </Link>
       <Link to='/counter' className='item'>
         Counter
+      </Link>
+      <Link to='/blog-post' className='item'>
+        BlogPost
       </Link>
     </div>
   )

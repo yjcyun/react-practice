@@ -8,6 +8,7 @@ import { Route } from 'react-router-dom';
 import { items, options } from './data/widget-data';
 import SongsApp from './components/songs-redux/App';
 import CounterApp from './components/counter/App';
+import BlogPostApp from './components/blog-posts/App';
 
 const App = () => {
   const [selected, setSelected] = useState(options[0]);
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <div className='ui container grid'>
+      <div className='ui grid container'>
         <div className='ui row'>
           <Route path='/accordion'>
             <Accordion items={items} />
@@ -39,6 +40,9 @@ const App = () => {
           </Route>
           <Route path='/counter'>
             <CounterApp />
+          </Route>
+          <Route path='/blog-post'>
+            <BlogPostApp />
           </Route>
         </div>
       </div>
