@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <div>
+        <div className='ui container'>
           <Header />
           <Route exact path='/' component={StreamList} />
           <Route path='/streams/new' component={StreamCreate} />
