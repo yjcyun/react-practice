@@ -8,6 +8,7 @@ import {
   DELETE_STREAM,
   EDIT_STREAM
 } from "./types";
+import history from '../history';
 
 // when user signs in
 export const signIn = (userId) => {
@@ -30,6 +31,7 @@ export const createStream = formValues => async (dispatch, getState) => {
 
   dispatch({ type: CREATE_STREAM, payload: response.data });
   // navigate back to stream lists
+  history.push('/')
 }
 
 //list all records
